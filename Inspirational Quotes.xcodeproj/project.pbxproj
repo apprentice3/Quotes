@@ -13,6 +13,7 @@
 		6513568919F879F80030F6A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6513568819F879F80030F6A5 /* Images.xcassets */; };
 		6513568C19F879F80030F6A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6513568A19F879F80030F6A5 /* LaunchScreen.xib */; };
 		6513569819F879F80030F6A5 /* Inspirational_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513569719F879F80030F6A5 /* Inspirational_QuotesTests.swift */; };
+		65775C8619F8D6F0006FD959 /* US Gulf Coast at NIght.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65775C8519F8D6F0006FD959 /* US Gulf Coast at NIght.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6513569119F879F80030F6A5 /* Inspirational QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inspirational QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6513569619F879F80030F6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6513569719F879F80030F6A5 /* Inspirational_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspirational_QuotesTests.swift; sourceTree = "<group>"; };
+		65775C8519F8D6F0006FD959 /* US Gulf Coast at NIght.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "US Gulf Coast at NIght.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		6513567F19F879F80030F6A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65775C8519F8D6F0006FD959 /* US Gulf Coast at NIght.jpg */,
 				6513568019F879F80030F6A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					6513567B19F879F80030F6A5 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FZEEZ784Q2;
 					};
 					6513569019F879F80030F6A5 = {
 						CreatedOnToolsVersion = 6.1;
@@ -168,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6513567719F879F80030F6A5 /* Build configuration list for PBXProject "Inspirational Quotes" */;
+			buildConfigurationList = 6513567719F879F80030F6A5 /* Build configuration list for PBXProject "Quotes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -192,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65775C8619F8D6F0006FD959 /* US Gulf Coast at NIght.jpg in Resources */,
 				6513568719F879F80030F6A5 /* Main.storyboard in Resources */,
 				6513568C19F879F80030F6A5 /* LaunchScreen.xib in Resources */,
 				6513568919F879F80030F6A5 /* Images.xcassets in Resources */,
@@ -338,9 +343,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Inspirational Quotes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -348,9 +358,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Inspirational Quotes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -391,7 +406,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6513567719F879F80030F6A5 /* Build configuration list for PBXProject "Inspirational Quotes" */ = {
+		6513567719F879F80030F6A5 /* Build configuration list for PBXProject "Quotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6513569919F879F80030F6A5 /* Debug */,
@@ -407,6 +422,7 @@
 				6513569D19F879F80030F6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6513569E19F879F80030F6A5 /* Build configuration list for PBXNativeTarget "Inspirational QuotesTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +431,7 @@
 				651356A019F879F80030F6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
